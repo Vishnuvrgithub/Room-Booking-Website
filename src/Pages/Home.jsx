@@ -37,7 +37,7 @@ const Home = () => {
     <Navbar/>
     <div className='roomimg'></div>
     <div className='details'>
-    <Checkbox boxicon={icon4} data={CheckinData} title='Checked In Today' text='Checked in' />
+    <Checkbox boxicon={icon4} data={CheckinData} title='Checked In Today'  text='Checked in'  />
     <Checkbox boxicon={icon3} data={CheckOutData} title='Checked Out Today' text='Checked out' />
     </div>
     </div>
