@@ -44,6 +44,8 @@
 .orange{
     /* color: orange; */
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 .red{
     /* color: red; */

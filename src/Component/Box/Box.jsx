@@ -1,19 +1,23 @@
 import React from 'react'
-// import Button from '../Button/Button'
 const Box = ({data,inorout}) => {
+
+  const formatDate = (date)=>{
+    return (new Date(date)).toDateString();
+  }
   return (
     <div className='chkbox'>
     <div className='people'>
-        <div className='names'>{data.name}</div>
-        <div>{data.date}</div>
+        <div className='names'>{data.guestFirstName}</div>
+        <div>{formatDate(data.checkOutDate)}</div>
+        <div>{formatDate(data.checkInDate)}</div>
+        
     </div>
-    <div>{data.roomno}</div>
+    <div>{data.room.roomNumber}</div>
     <div></div>
 
     {/* <Button text={text} /> */}
-    <div className='inorout'>{data.inorout}</div>
-    
-
+    <div className='inorout'>{data.status}</div>
+   
 </div>
 
 
