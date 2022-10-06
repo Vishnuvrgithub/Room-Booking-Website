@@ -46,7 +46,7 @@ const Roomdetails = ({data, amdata, setEditbtn}) => {
         <div className='roomtitle'>Rooms</div>
 
         {/* <Addroombtn className='btnroom'/> */}
-        <Button text='+AddRoom' func={Popuproom}/>
+        <Button text='Add Room' func={Popuproom}/>
         </div>
         <Roomtable roomData={roomData} setEditbtn={setAddroom}  setEditingid={setEditingid} Editingid={Editingid} deleteRoom={deleteRoom}  setdeleteId={setdeleteId} />
         

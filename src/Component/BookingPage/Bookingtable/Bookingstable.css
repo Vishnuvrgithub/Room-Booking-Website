@@ -6,11 +6,11 @@
     padding: 10px;
 }
 .bookingtext{
-    color: blue;
+   
     font-weight: 600;
 }
 .bookslist{
-    height: 306px;
+    
     overflow: scroll;
 }
 .booktabletitle{
